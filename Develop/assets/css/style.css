@@ -4,9 +4,7 @@
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
+
 
 .header {
     padding: 20px;
@@ -41,6 +39,9 @@ body {
     margin-left: 25px;
 }
 
+body {
+    background-color: #d9dcd6;
+}
 a {
     color: #ffffff;
     text-decoration: none;
@@ -59,21 +60,58 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/* Formating for the boxes for Search Engine optimization, Online Reputation Management, and Social Media Marketing */
 
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* Formating for the headers of Search Engine optimization, Online Reputation Management, and Social Media Marketing */
+
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Formating for content of Search Engine optimization, Online Reputation Management, and Social Media Marketing */
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Formating for the images of Search Engine optimization, Online Reputation Management, and Social Media Marketing */
+
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img{
+    max-height: 200px;
+}
+
+/* Floating of the images for Search Engine Optimization and Social Media Marketing */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Floating of the image for Online Reputation Management */
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Formatting for the boxes for benfits including Lead Generation, Brand Awareness, and Cost Management */
 
 .benefits {
     margin-right: 20px;
@@ -86,108 +124,34 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* Formatting for the headers of benfits including Lead Generation, Brand Awareness, and Cost Management */
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/* Formatting for the content of benfits including Lead Generation, Brand Awareness, and Cost Management */
+.benefit-lead,
+.benefit-brand,
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* Formatting for the benefit images */
 
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Formating for the Horiseon footer */
 .footer {
     padding: 30px;
     clear: both;
